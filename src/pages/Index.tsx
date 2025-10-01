@@ -63,9 +63,8 @@ const Index = () => {
       <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur border-b border-border">
         <nav className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
-            <div className="flex items-center gap-2">
-              <Icon name="Gem" className="text-primary" size={28} />
-              <h1 className="text-2xl font-playfair font-bold">Ювелирная Мастерская</h1>
+            <div className="flex items-center gap-3">
+              <img src="https://cdn.poehali.dev/files/53ceb456-78cc-409a-b08f-9828af0a647e.png" alt="Jeweller Pro" className="h-10 w-auto" />
             </div>
             <div className="hidden md:flex items-center gap-8">
               <a href="#home" className="text-sm hover:text-primary transition-colors">Главная</a>
@@ -310,9 +309,8 @@ const Index = () => {
 
       <footer className="border-t border-border py-12 px-6">
         <div className="container mx-auto text-center">
-          <div className="flex items-center justify-center gap-2 mb-4">
-            <Icon name="Gem" className="text-primary" size={24} />
-            <span className="text-xl font-playfair font-bold">ЮВЕЛИРНАЯ</span>
+          <div className="flex items-center justify-center mb-4">
+            <img src="https://cdn.poehali.dev/files/53ceb456-78cc-409a-b08f-9828af0a647e.png" alt="Jeweller Pro" className="h-8 w-auto" />
           </div>
           <p className="text-muted-foreground mb-4">Ювелирная мастерская полного цикла</p>
           <p className="text-sm text-muted-foreground">© 2024 Все права защищены</p>
