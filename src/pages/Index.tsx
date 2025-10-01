@@ -87,7 +87,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
               <div className="inline-block mb-4 px-4 py-2 bg-primary/10 rounded-full">
-                <span className="text-primary text-sm font-medium">Мастерство с 1995 года</span>
+                <span className="text-primary font-medium text-xl">Мастерство с 2010 года</span>
               </div>
               <h1 className="text-5xl md:text-7xl font-playfair font-bold mb-6 leading-tight">
                 Ювелирное<br />
