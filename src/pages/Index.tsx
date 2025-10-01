@@ -130,14 +130,13 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-8 mt-12">
             <div className="text-center">
               <div className="text-4xl font-playfair font-bold text-primary mb-2">25+</div>
-              <p className="text-muted-foreground">лет опыта</p>
+              <p className="text-muted-foreground">Более 15 лет мы создаём украшения, которые становятся частью важнейших моментов в жизни наших клиентов. Наша команда мастеров сочетает традиционные техники ювелирного искусства с современными технологиями, что позволяет воплощать в жизнь самые смелые идеи.</p>
             </div>
             <div className="text-center">
               <div className="text-4xl font-playfair font-bold text-primary mb-2">5000+</div>
               <p className="text-muted-foreground">довольных клиентов</p>
             </div>
-            <div className="text-center">
-              <div className="text-4xl font-playfair font-bold text-primary mb-2">100%</div>
+            <div className="text-center">15+</div>
               <p className="text-muted-foreground">качество работ</p>
             </div>
           </div>
@@ -145,10 +144,7 @@ const Index = () => {
       </section>
 
       <section id="services" className="py-20 px-6">
-        <div className="container mx-auto">
-          <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 mb-6">
-              <div className="h-px w-12 bg-primary"></div>
+        <div className="container mx-auto">500+</div>
               <span className="text-primary font-medium">Услуги</span>
               <div className="h-px w-12 bg-primary"></div>
             </div>
@@ -230,7 +226,7 @@ const Index = () => {
                   </div>
                   <div>
                     <p className="font-medium">Адрес</p>
-                    <p className="text-muted-foreground">Москва, ул. Арбат, д. 10</p>
+                    <p className="text-muted-foreground mx-0">Республика Крым, г. Феодосия Ул. Гарнаева, 59</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -239,7 +235,7 @@ const Index = () => {
                   </div>
                   <div>
                     <p className="font-medium">Телефон</p>
-                    <p className="text-muted-foreground">+7 (495) 123-45-67</p>
+                    <p className="text-muted-foreground">+7 (978) 603-83-19</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -257,7 +253,8 @@ const Index = () => {
                   </div>
                   <div>
                     <p className="font-medium">Часы работы</p>
-                    <p className="text-muted-foreground">Пн-Пт: 10:00 - 20:00<br/>Сб-Вс: 11:00 - 18:00</p>
+                    <p className="text-muted-foreground">Пн-Пт: 9:00 - 17:00
+Сб-Вс: 9:00 - 15:00</p>
                   </div>
                 </div>
               </div>
@@ -307,7 +304,7 @@ const Index = () => {
           <div className="flex items-center justify-center mb-4">
             <img src="https://cdn.poehali.dev/files/53ceb456-78cc-409a-b08f-9828af0a647e.png" alt="Jeweller Pro" className="h-8 w-auto" />
           </div>
-          <p className="text-muted-foreground mb-4">Ювелирная мастерская полного цикла</p>
+          <p className="text-muted-foreground mb-4">Ювелирная мастерская </p>
           <p className="text-sm text-muted-foreground">© 2024 Все права защищены</p>
         </div>
       </footer>
