@@ -64,7 +64,7 @@ const Index = () => {
         <nav className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <img src="https://cdn.poehali.dev/files/53ceb456-78cc-409a-b08f-9828af0a647e.png" alt="Jeweller Pro" className="h-10 w-auto" />
+              <img src="https://cdn.poehali.dev/files/53ceb456-78cc-409a-b08f-9828af0a647e.png" alt="Jeweller Pro" className="h-10 w-auto mx-1 my-1 py-0 px-0 rounded-full object-fill" />
             </div>
             <div className="hidden md:flex items-center gap-8">
               <a href="#home" className="text-sm hover:text-primary transition-colors">Главная</a>
