@@ -27,11 +27,6 @@ const Index = () => {
       icon: 'Gem',
       title: 'Реставрация',
       description: 'Бережное восстановление антикварных и семейных драгоценностей'
-    },
-    {
-      icon: 'Settings',
-      title: 'Огранка камней',
-      description: 'Высококачественная огранка драгоценных и полудрагоценных камней'
     }
   ];
 
@@ -162,7 +157,7 @@ const Index = () => {
               Предлагаем полный спектр ювелирных услуг от изготовления до реставрации
             </p>
           </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {services.map((service, index) => (
               <Card key={index} className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-border/50">
                 <CardContent className="p-6">
