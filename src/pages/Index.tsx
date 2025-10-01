@@ -62,7 +62,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur border-b border-border">
         <nav className="container mx-auto px-6 py-4">
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between px-[7px] bg-slate-100 rounded-full mx-[61px]">
             <div className="flex items-center gap-3">
               <img src="https://cdn.poehali.dev/files/53ceb456-78cc-409a-b08f-9828af0a647e.png" alt="Jeweller Pro" className="h-10 w-auto mx-1 my-1 py-0 px-0 rounded-full object-fill" />
             </div>
