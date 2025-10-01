@@ -65,7 +65,7 @@ const Index = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <Icon name="Gem" className="text-primary" size={28} />
-              <h1 className="text-2xl font-playfair font-bold">ЮВЕЛИРНАЯ</h1>
+              <h1 className="text-2xl font-playfair font-bold">Ювелирная Мастерская</h1>
             </div>
             <div className="hidden md:flex items-center gap-8">
               <a href="#home" className="text-sm hover:text-primary transition-colors">Главная</a>
