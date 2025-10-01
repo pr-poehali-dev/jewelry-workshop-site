@@ -57,9 +57,9 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur border-b border-border">
         <nav className="container mx-auto px-6 py-4">
-          <div className="flex items-center justify-between px-[7px] bg-slate-100 rounded-full mx-[61px]">
+          <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <img src="https://cdn.poehali.dev/files/53ceb456-78cc-409a-b08f-9828af0a647e.png" alt="Jeweller Pro" className="h-10 w-auto mx-1 my-1 py-0 px-0 rounded-full object-fill" />
+              <img src="https://cdn.poehali.dev/files/53ceb456-78cc-409a-b08f-9828af0a647e.png" alt="Jeweller Pro" className="h-10 w-auto" />
             </div>
             <div className="hidden md:flex items-center gap-8">
               <a href="#home" className="text-sm hover:text-primary transition-colors">Главная</a>
@@ -81,7 +81,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
               <div className="inline-block mb-4 px-4 py-2 bg-primary/10 rounded-full">
-                <span className="text-primary font-medium text-xl">Мастерство с 2010 года</span>
+                <span className="text-primary text-sm font-medium">Мастерство с 1995 года</span>
               </div>
               <h1 className="text-5xl md:text-7xl font-playfair font-bold mb-6 leading-tight">
                 Ювелирное<br />
@@ -130,13 +130,14 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-8 mt-12">
             <div className="text-center">
               <div className="text-4xl font-playfair font-bold text-primary mb-2">25+</div>
-              <p className="text-muted-foreground">Более 15 лет мы создаём украшения, которые становятся частью важнейших моментов в жизни наших клиентов. Наша команда мастеров сочетает традиционные техники ювелирного искусства с современными технологиями, что позволяет воплощать в жизнь самые смелые идеи.</p>
+              <p className="text-muted-foreground">лет опыта</p>
             </div>
             <div className="text-center">
               <div className="text-4xl font-playfair font-bold text-primary mb-2">5000+</div>
               <p className="text-muted-foreground">довольных клиентов</p>
             </div>
-            <div className="text-center">15+</div>
+            <div className="text-center">
+              <div className="text-4xl font-playfair font-bold text-primary mb-2">100%</div>
               <p className="text-muted-foreground">качество работ</p>
             </div>
           </div>
@@ -144,7 +145,10 @@ const Index = () => {
       </section>
 
       <section id="services" className="py-20 px-6">
-        <div className="container mx-auto">500+</div>
+        <div className="container mx-auto">
+          <div className="text-center mb-16">
+            <div className="inline-flex items-center gap-2 mb-6">
+              <div className="h-px w-12 bg-primary"></div>
               <span className="text-primary font-medium">Услуги</span>
               <div className="h-px w-12 bg-primary"></div>
             </div>
@@ -226,7 +230,7 @@ const Index = () => {
                   </div>
                   <div>
                     <p className="font-medium">Адрес</p>
-                    <p className="text-muted-foreground mx-0">Республика Крым, г. Феодосия Ул. Гарнаева, 59</p>
+                    <p className="text-muted-foreground">Москва, ул. Арбат, д. 10</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -235,7 +239,7 @@ const Index = () => {
                   </div>
                   <div>
                     <p className="font-medium">Телефон</p>
-                    <p className="text-muted-foreground">+7 (978) 603-83-19</p>
+                    <p className="text-muted-foreground">+7 (495) 123-45-67</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -304,7 +308,7 @@ const Index = () => {
           <div className="flex items-center justify-center mb-4">
             <img src="https://cdn.poehali.dev/files/53ceb456-78cc-409a-b08f-9828af0a647e.png" alt="Jeweller Pro" className="h-8 w-auto" />
           </div>
-          <p className="text-muted-foreground mb-4">Ювелирная мастерская </p>
+          <p className="text-muted-foreground mb-4">Ювелирная мастерская полного цикла</p>
           <p className="text-sm text-muted-foreground">© 2024 Все права защищены</p>
         </div>
       </footer>
